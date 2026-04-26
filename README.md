@@ -1,5 +1,3 @@
-
-
 # E-Commerce & Marketing Performance Analysis
 
 > *"Turning raw data into decisions — an end-to-end analytics project."*
@@ -16,12 +14,14 @@ The goal is to uncover actionable insights around customer retention, revenue co
 
 ## Tech Stack
 
-| Stage | Tool |
+| Stage | Tool / Method |
 |---|---|
-| Data Source | Kaggle |
+| Data Source | Kaggle (CSV files) |
+| Data Ingestion | CSV import → SQL tables |
 | Data Storage | SQL (relational tables) |
 | Data Transformation | SQL (cleaning, joins, views) |
 | Business Logic | SQL Views + DAX Measures |
+| BI Connection | Power BI via DirectQuery |
 | Visualization | Microsoft Power BI |
 
 ---
@@ -29,16 +29,22 @@ The goal is to uncover actionable insights around customer retention, revenue co
 ## Workflow
 
 ```
-Kaggle Dataset
+Kaggle Dataset (CSV files)
+      │
+      ▼
+Import CSVs → SQL Tables
       │
       ▼
 Data Cleaning & Transformation (SQL)
       │
       ▼
-Structured SQL Tables & Views
+Structured SQL Views
       │
       ▼
-DAX Measures & Calculated Columns (Power BI)
+Power BI connected via DirectQuery
+      │
+      ▼
+DAX Measures & Calculated Columns
       │
       ▼
 Interactive Dashboard (3 Pages)
@@ -101,14 +107,8 @@ The report is organized across three analytical pages:
 
 ---
 
-
 ## Data Source
 
-Dataset sourced from [Kaggle](https://www.kaggle.com). Cleaned, transformed, and structured independently as part of this project.
+Dataset sourced from [Kaggle](https://www.kaggle.com) as CSV files. Data was imported into SQL, cleaned and transformed into structured relational tables and views, then connected to Microsoft Power BI using DirectQuery for live querying and visualization.
 
----
 
-## Author
-
-**[Your Name]**
-[LinkedIn](https://linkedin.com/in/yourprofile) · [GitHub](https://github.com/yourusername)
