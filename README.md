@@ -90,9 +90,6 @@ The report is organized across three analytical pages:
 - Only **~10% of views convert to purchases**, with bounce events accounting for approximately **190K lost opportunities**.
 - Funnel drop-off between add-to-cart (284K) and purchase (103K) suggests significant abandonment at the checkout stage.
 
-### A/B Testing
-- Experiment group distribution is skewed **3:1:1 (Control vs. Variant A vs. Variant B)**, which limits the statistical reliability of conclusions drawn from this test.
-- Future experiments should target balanced group allocation for valid inference.
 
 ---
 
@@ -103,7 +100,6 @@ The report is organized across three analytical pages:
 3. **Optimize mobile checkout** — with 60% of sessions on mobile, even a 5% improvement in mobile conversion could yield significant revenue uplift.
 4. **Reallocate Social budget** toward Affiliate and Paid Search where ROI is demonstrably stronger.
 5. **Investigate funnel drop-off** between add-to-cart and purchase — exit surveys, abandoned cart emails, or UX testing could identify friction points.
-6. **Redesign A/B testing framework** to ensure statistically balanced group sizes before drawing experiment conclusions.
 
 ---
 
